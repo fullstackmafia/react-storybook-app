@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots CoffeeButton Black 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#d9d9d9",
+      "border": "#66c2ff 3px solid",
+      "borderRadius": "5px",
+      "cursor": "pointer",
+      "fontSize": "15px",
+      "padding": "10px",
+    }
+  }
+>
+  <span
+    aria-label="without-milk"
+    role="img"
+  >
+    🏿
+  </span>
+  <div>
+    Please serve 1 cup of coffee
+  </div>
+</button>
+`;
+
+exports[`Storyshots CoffeeButton White 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#d9d9d9",
+      "border": "#66c2ff 3px solid",
+      "borderRadius": "5px",
+      "cursor": "pointer",
+      "fontSize": "15px",
+      "padding": "10px",
+    }
+  }
+>
+  <span
+    aria-label="with-milk"
+    role="img"
+  >
+    🏼
+  </span>
+  <div>
+    Please serve 1 cup of coffee
+  </div>
+</button>
+`;
